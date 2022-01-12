@@ -16,8 +16,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p {
-    opacity: 0.6;
     line-height: 1.5;
+    opacity: 0.6;
   }
 
   img {
