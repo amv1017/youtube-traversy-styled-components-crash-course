@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container } from './styles/Container.styled'
-import { StyledHeader, Nav, Logo } from './styles/Header.styled'
+import { StyledHeader, Nav, Logo, Image } from './styles/Header.styled'
 import { Button } from './styles/Button.styled'
 import { Flex } from './styles/Flex.styled'
 
 export default function Header() {
-  return (
+  return(
     <StyledHeader color="#000">
       <Container>
         <Nav>
@@ -24,6 +24,7 @@ export default function Header() {
               Get Started For Free
             </Button>
           </div>
+          <Image src='./images/illustration-mockups.svg' alt='' />
         </Flex>
       </Container>
     </StyledHeader>
