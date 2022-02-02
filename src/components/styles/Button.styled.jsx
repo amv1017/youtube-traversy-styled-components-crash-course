@@ -10,9 +10,13 @@ export const Button = styled.button`
   font-size: 16px;
   font-weight: 700;
   padding: 15px 60px;
-
+ 
   &:hover {
-    opacity: 0.9;
+    filter: brightness(0.95);
+  }
+
+  &:active {
     transform: scale(0.98);
+    filter: brightness(0.90);
   }
 `
